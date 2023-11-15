@@ -12,7 +12,7 @@ import { FileService } from 'src/app/services/file/file.service';
 export class RequestComponent {
   loans: Loan[] = [];
   address: string = '';
-  currency: string = 'mAlgo';
+  currency: string = 'Alg';
   files: any = [];
 
   showRequestDialog: boolean = false;

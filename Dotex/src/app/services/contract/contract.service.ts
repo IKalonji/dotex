@@ -35,12 +35,13 @@ export class ContractService {
     }
 
     const chainId = await window.ethereum.request({ method: 'eth_chainId' });
-    if (chainId != "0x30E0A"){
+    console.log(chainId);
+    if (chainId != "0x30e0a"){
       alert("You need to be connected to Milkomeda Algorand A1 Devnet to proceed. Please switch networks and reload the app.")
       try {
         await window.ethereum.request({
           method: 'wallet_switchEthereumChain',
-          params: [{ chainId: '0x30E0A' }],
+          params: [{ chainId: '0x30e0a' }],
         });
       } catch (switchError: any) {
         // This error code indicates that the chain has not been added to MetaMask.
@@ -50,7 +51,7 @@ export class ContractService {
               method: 'wallet_addEthereumChain',
               params: [
                 {
-                  chainId: '0x30E0A',
+                  chainId: '0x30e0a',
                   chainName: 'Milkomeda Algorand Devnet',
                   rpcUrls: ['https://rpc-devnet-algorand-rollup.a1.milkomeda.com'],
                   nativeCurrency: {
