@@ -1,0 +1,172 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: var(--surface-b);
+    border-bottom: 1px solid var(--surface-a);
+}
+
+.logo {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 36px;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.header img {
+    margin-right: 10px;
+}
+
+.bids {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 150px;
+}
+
+.bid {
+    display: inline-block;
+    width: calc(100% - 8px);
+}
+
+.title {
+    padding: 15px 0 0 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.request {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.row-between {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.row-center {
+    display: flex;
+    justify-content: center;
+}
+
+.row-end {
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.btn, .text {
+    width: 50%;
+}
+
+.status {
+    margin: 20px 15px 0 0;
+}
+
+hr {
+    border: 1px solid var(--surface-c);
+}
+
+.bid-action {
+    display: flex;
+    gap: 5px;
+    color: var(--primary-color);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.bid-action:hover {
+    opacity: .8;
+}
+
+.bid-action:active {
+    opacity: .6;
+}
+
+.bid-action span {
+    margin-top: 3px;
+}
+
+.bid-status {
+    display: flex;
+    justify-content: stretch;
+    gap: 5px;
+
+}
+
+.text-end {
+    text-align: right;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.tab-panel {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.tab-panel i {
+    margin-top: 5px;
+}
+
+.no-content {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--surface-d);
+}
+
+@media screen and (min-width: 480px) {
+    .bid {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .bid {
+        width: calc(50% - 5px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bid {
+        width: calc(33.33% - 7px);
+    }
+}
+
+@media only screen and (min-width: 1520px) {
+    .bid {
+        width: calc(25% - 8px);
+    }
+}

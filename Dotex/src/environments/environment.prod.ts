@@ -1,0 +1,4 @@
+export const environment = {
+  production: true,
+  Web3StorageToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDYyRUUxOTY4OGM4MDgwNzkxNDcxYkMzNjNhMDg4YTU5YzRCY0E5MDYiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NzUzNjc2OTg1NjMsIm5hbWUiOiJtb3RodXBpci5pb3NzIn0.BCX1bomx9vYE4NFMzjheF81a9yfjIVoDS2Z4UbqlFLU'
+};

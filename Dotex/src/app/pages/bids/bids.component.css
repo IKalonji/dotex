@@ -1,0 +1,30 @@
+.spinner-container {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000;
+}
+
+.spinner {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1000000;
+    width: 50px;
+    height: 50px;
+    margin: -20px 0 0 -20px;
+    border: 5px solid var(--surface-d);
+    border-radius: 50%;
+    border-top: 5px solid var(--primary-color);
+    width: 35px;
+    height: 35px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
