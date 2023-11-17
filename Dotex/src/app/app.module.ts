@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 
 import { ConfirmationService } from 'primeng/api';
+import { ConfirmDialogModule } from 'primeng/confirmdialog';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ConfirmationService } from 'primeng/api';
     BrowserAnimationsModule,
     ButtonModule,
     MenubarModule,
-    CardModule
+    CardModule,
+    ConfirmDialogModule
   ],
   providers: [ConfirmationService],
   bootstrap: [AppComponent]

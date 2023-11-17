@@ -24,7 +24,7 @@
     <a href="https://github.com/IKalonji/dotex"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="url-here">View Demo</a>
+    <a href="https://youtu.be/7IIiFi2edhI">View Demo</a>
     ·
     <a href="https://github.com/IKalonji/dotex/issues">Report Bug</a>
     ·
@@ -156,7 +156,7 @@ Below is an example of how you can start installing and setting up the app local
 
 ### Watch the MVP project demo below
 
-[![DEMO](url-here)
+[![DEMO](https://youtu.be/7IIiFi2edhI)]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
