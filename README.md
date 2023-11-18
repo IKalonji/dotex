@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/IKalonji/dotex">
-    <img src="./dotex/Dotex/src/assets/dotex512x216.png" alt="Logo" width="80" height="80">
+    <img src="./Dotex/src/assets/dotex512x216.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">DotEx</h3>
@@ -156,7 +156,7 @@ Below is an example of how you can start installing and setting up the app local
 
 ### Watch the MVP project demo below
 
-[![DEMO](https://youtu.be/7IIiFi2edhI)]
+[![Demo Video](https://img.youtube.com/vi/7IIiFi2edhI/0.jpg)](https://youtu.be/7IIiFi2edhI)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
