@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/IKalonji/dotex">
-    <img src="../dotex/Dotex/src/assets/dotex512x216.png" alt="Logo" width="80" height="80">
+    <img src="./dotex/Dotex/src/assets/dotex512x216.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">DotEx</h3>
@@ -243,7 +243,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-url]: https://www.linkedin.com/in/issa-kalonji-b301851ba/
 [product-screenshot]: screenshots/home.png
 [Milkomeda-url]: https://milkomeda.com/
-[Milkomeda.com]: https://milkomeda.com/
+[Milkomeda.com]: https://img.shields.io/badge/Milkomeda-Algorand%20A1-000500?style=for-the-badge&logo=ethers&logoColor=blue
 [remix.ethereum.org]: https://img.shields.io/badge/remix-000000?style=for-the-badge&logo=remixethereum&logoColor=white
 [Remix-url]: https://remix.ethereum.org/
 [Ethers.js]: https://img.shields.io/badge/Ethers.js-000500?style=for-the-badge&logo=ethers&logoColor=blue
